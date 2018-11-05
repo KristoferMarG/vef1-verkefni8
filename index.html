@@ -8,16 +8,16 @@
   <body>
     <main>
       <h1 class="heading">Verkefnalisti</h1>
-      <ul class="items">
+      <ul class="items" id = "myList" >
         <li class="item item--done">
-          <input type="checkbox" checked class="item__checkbox">
+          <input type="checkbox" checked class="item__checkbox" name = "checkbox">
           <span class="item__text">Sækja verkefni</span>
           <button class="item__button">Eyða</button>
         </li>
         <li class="item">
           <input type="checkbox" class="item__checkbox">
-          <span class="item__text">Klára verkefni</span>
-          <button class="item__button">Eyða</button>
+          <span class="item__text" >Klára verkefni</span>
+          <button class="item__button" >Eyða</button>
         </li>
         <li class="item">
           <input type="checkbox" class="item__checkbox">
@@ -26,9 +26,10 @@
         </li>
       </ul>
       <form class="form">
-        <input class="form__input" type="text">
-        <button class="form__button">Bæta við</button>
+        <input class="form__input" type="text" >
+        <button class="form__button" >Bæta við</button>
       </form>
+      <p id="demo"></p> 
     </main>
     <script src="scripts.js"></script>
   </body>
